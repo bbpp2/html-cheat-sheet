@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>HTML Template Basics</title>
+        <link href="styles.css" rel="stylesheet"/>
+        <!--Font: Roboto Mono Regular 400-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>HTML Template Basics</h1>
+        </header>
+
+        <!--Navigation Bar-->
+        <nav>
+            <ul>
+                <li id="nav-format">Navigation</li>
+                <li><a href="#Template" class="nav-pad">Template</a></li>
+                <li><a href="#doctype" class="nav-pad">!DOCTYPE</a></li>
+                <li><a href="#html" class="nav-pad">HTML tag</a></li>
+                <li><a href="#head" class="nav-pad">Head tag</a></li>
+                <li><a href="#title" class="nav-pad">Title tag</a></li>
+                <li><a href="#body" class="nav-pad">Body tag</a></li>
+                <li><a href="#CSS" class="nav-pad">CSS link</a></li>
+            </ul>
+        </nav>
+
+        <!--Main Section-->
+        <section class="main-section">
+
+            <!--TEMPLATE-->
+            <h2 id="Template">Template</h2>
+            <!--basic HTML template with CSS link-->
+            <div class="HTML-template">
+                <div class="heading">&lt;&gt; index.html</div>
+                <hr>
+                <ol> 
+                    <li><span class="tag-color">&lt;!DOCTYPE html&gt;</span></li>
+                    <li><span class="tag-color">&lt;html&gt;</span></li>
+                        <li>
+                            <span class="tab1 tag-color">&lt;head&gt;</span>
+                        </li>
+                            <li>
+                                <span class="tab2 tag-color">&lt;title&gt;</span><span class="text-color">Basic HTML Template</span><span class="tag-color">&lt;/title&gt;</span>
+                            </li>
+                            <li>
+                                <span class="tab2 tag-color">&lt;link</span>
+                                <span class="class-color">href</span><span class="text-color">=</span><span class="class-value-color">"styles.css"</span> 
+                                <span class="class-color">rel</span><span class="text-color">=</span><span class="class-value-color">"stylesheet"</span><span class="class-color">/&gt;</span>
+                            </li>
+                        <li>
+                            <span class="tab1 tag-color">&lt;/head&gt;</span>
+                        </li>
+                    <li>
+                        <span class="tab1 tag-color">&lt;body&gt;</span>
+                    </li>
+                        <li>
+                            <span class="tab2 text-color">CONTENT</span>
+                        </li>
+                    <li>
+                        <span class="tab1 tag-color">&lt;/body&gt;</span>
+                    </li>
+                    <li>
+                        <span class="tag-color">&lt;/html&gt;
+                    </li>
+                </ol>
+            </div>
+
+            <!--DOCTYPE-->
+            <h2 id="doctype">!DOCTYPE html</h2>
+            <p>The &lt;!DOCTYPE html&gt; declaration should always be the first line of code in your HTML files. This lets the browser know what version of HTML to expect.</p>
+            <p class="tag-text">&lt;!DOCTYPE html&gt;</p> 
+            <p>The &lt;!DOCTYPE html&gt; declaration provides the browser with two pieces of information (the type of document and the HTML version to expect), but it doesn’t actually add any HTML structure or content.</p>
+            
+            <!--HTML-->
+            <h2 id="html">HTML tag</h2>
+            <p>A unit of content in an HTML document formed by HTML tags and the text or media it contains.</p>
+            <p class="tag-text">&lt;html&gt;&lt;/html&gt;</p>
+            <p>Anything between the opening <html> and closing </html> tags will be interpreted as HTML code. Without these tags, it’s possible that browsers could incorrectly interpret your HTML code.</p>
+            
+            <!--head-->
+            <h2 id="head">HEAD tag</h2>
+            <p>The &lt;head&gt; element contains the metadata for a web page. Metadata is information about the page that isn’t displayed directly on the web page. </p>
+            <span class="tag-text">&lt;head&gt;&lt;/head&gt;</span>
+            <p>Information about the web page, like the title, belongs within the &lt;head&gt; of the page.</p>
+
+            <!--title-->
+            <h2 id="title">TITLE tag</h2>
+            <p>You can add a title to your web page by using the &lt;title&gt; element, inside of the head.</p>
+            <span class="tag-text">&lt;title&gt;&lt;/title&gt;</span>
+            <p>A webpage’s title appears in a browser’s tab.</p>
+
+            <!--body-->
+            <h2 id="body">BODY tag</h2>
+            <p>One of the key HTML elements we use to build a webpage is the body element. Only content inside the opening and closing body tags can be displayed to the screen. Here’s what opening and closing body tags look like:</p>
+            <span class="tag-text">&lt;body&gt;&lt;/body&gt;</span>
+            <p>Once the file has a body, many different types of content – including text, images, and buttons – can be added to the body.</p>
+
+            <!--CSS LINK-->
+            <h2 id="CSS">CSS link</h2>
+            <p>The &lt;link&gt; HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.</p>
+            <span class="tag-text">&lt;link href="styles.css" rel="stylesheet"/&gt;</span>
+            <p>This simple example provides the path to the stylesheet inside an href attribute, and a rel attribute with a value of stylesheet. The rel stands for "relationship", and is one of the key features of the &lt;link&gt; element — the value denotes how the item being linked to is related to the containing document.</p>
+       
+        </section>
+
+        <!--random filler section-->
+        <section id="filler">
+            <embed src="https://i.giphy.com/media/oebD5alsVBFKg/giphy.webp" height="320px"></embed>
+        </section>
+
+        <!--Back to top button-->
+        <a href="#" id="top">Back to top</a>
+
+        <footer>
+            references: codecadmy, mdn, giphy
+        </footer>
+
+    </body>
+</html>

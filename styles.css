@@ -1,0 +1,172 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #FCF8E8;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 64px;
+    background-color: #ECB390;
+    color: #DF7861;
+    padding: 64px 0;
+    margin: 0 0 16px 0;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #DF7861;
+    padding: 6px 0;
+}
+
+h2, 
+p {
+    margin: 16px 0;
+}
+
+ol {
+    margin-left: 1em;
+}
+
+nav {
+    background-color: #b0c9b9;
+    width: 200px;
+    line-height: 2em;
+    border: 1px solid #5a6962;
+    border-radius: 6px;
+    position: sticky;
+    top: 12px;
+    left: 64%;
+    padding: 10px 0;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    color: #5a6962;
+    /*padding: 0 35px 0 25px;*/
+}
+
+nav a:hover {
+    background-color: #bfd3c6;
+    width: 87.5%; 
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+    color: #bdbdcf;
+}
+
+footer {
+    margin-top: 16px;
+    padding: 64px 0;
+    color: #DF7861;
+    background-color: #ECB390;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav-pad {
+    padding-left: 12.5%;
+
+}
+.main-section {
+    width: 37%;
+    margin-left: auto;
+    margin-right: 38%;
+    margin-top: -300px;
+}
+
+.HTML-template {
+    background-color: #2a2c31;
+    width: 80%;
+    white-space: nowrap;
+    font-family: 'Roboto Mono', Courier, monospace;
+    color: #bdbdcf;
+    border: 2px solid #bdbdcf;
+    position: auto;
+}
+
+.HTML-template .heading {
+    color: #bdbdcf;
+    background-color: #2a3b5e;
+    padding: 8px;
+}
+
+.HTML-template,
+.HTML-template .heading {
+    border-radius: 6px;
+}
+
+.tab1 {
+    margin-left: 16px;
+}
+
+.tab2 {
+    margin-left: 32px;
+}
+
+.tag-color {
+    color: #b56375;
+}
+
+.tag-text {
+    margin: 0;
+    padding: 16px;
+    background-color: #94B49F;
+    display: inline-block;
+    border-radius: 6px;
+}
+
+.class-color {
+    color: #d1834c;
+}
+
+.class-value-color {
+    color: #7ab976;
+}
+
+.text-color {
+    color: #bdbdcf;
+}
+
+#nav-format {
+    padding: 0 0 0 25px;
+    font-weight: bold;
+}
+
+#top {
+    padding: 10px;
+    color: #DF7861;
+    background-color: #ECB390;
+    border-radius: 6px;
+    position: sticky;
+    left: 100%;
+    bottom: 12px;
+    margin: 5px;
+}
+
+#top:hover {
+    background-color: #bfd3c6;
+    color: #5a6962;
+}
+
+#filler {
+    text-align: center;
+}
